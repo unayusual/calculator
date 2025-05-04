@@ -40,7 +40,7 @@ def button_click(value):
 entry = CTkEntry(label_frame, placeholder_text="enter number here", width=400, height=50, corner_radius=7, font=("Arial", 25, "bold"))
 entry.grid(pady=20,padx=40, columnspan=4, row=1)
 
-#bottons
+#buttons
 buttons = [
     '7', '8', '9', '/',
     '4', '5', '6', '*',
